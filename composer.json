@@ -1,0 +1,13 @@
+{
+    "name": "colin/php-test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Colin",
+            "email": "colin1124x@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "*"
+    }
+}
