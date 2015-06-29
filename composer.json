@@ -8,6 +8,7 @@
         }
     ],
     "require": {
-        "predis/predis": "*"
+        "predis/predis": "*",
+        "symfony/console": "*"
     }
 }

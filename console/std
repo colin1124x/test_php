@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+
+echo '請輸入字串: ';
+// $s = fgets(STDIN);
+$r = fopen('php://stdin', 'r');
+fscanf($r, "%f\n", $s);
+
+for ($i = 0; $i < 5; $i++)
+    fwrite(STDERR, "\033[32m{$s}\033[m".PHP_EOL);
